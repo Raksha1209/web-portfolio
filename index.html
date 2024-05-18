@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1c8921cd08.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header"> 
+        <div class="container">
+            <nav> <!-- add your logo here . LOGO shld be "R(one colour)aksha.(Other colour)" 243*107 dimension--> 
+                <img src="images/finalfff.png" class="logo">
+                <ul>
+                    <li><a href="#">Welcome</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hey, I'm <span> Raksha,</span> </h1><br>
+                <p class="aa">Nice to e-meet YOU ! </p>
+               
+                <h2></h2>
+            </div>
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="yourprofilepicture.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I love nothing more than work in silence with my headphones on!
+                        Aspiring to be knowledgeable graduate and currently working on upskilling
+                        myself also looking for opportunities to develop myself to fit into everchanging tech industry.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class= "tab-links" onclick="opentab('education')">Education </p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Web Development</span><br>Designing Web interfaces</li>
+                            <li><span>Programming Languages</span><br>C,Python,Java</li>
+                            <li><span>Developer tools</span><br>VS Code, Github</li>
+                            <li><span>Storage</span><br>MySQL</li>
+                            <li><span>Framework</span><br>Bootstrap</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>year</span><br>work</li>
+                            <li><span>year</span><br>work</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-present</span><br>B.Tech in Computer Science Engineering from REVA University.</li>
+                            <li><span>2020-2022</span><br>Pre-University Course- PCMB from Sri Sai Angels PU College.</li>
+                            <li><span>2017-2020</span><br>High School from St.Joseph's High School</li>
+                           
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------SERVICES--------------------------------------------------------------------------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1> 
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-web-awesome"></i>
+                    <h2>Front-end Web design</h2>
+                    <p>As a frontend developer, I recognize the role that creativity plays in shaping the digital presence of businesses and organizations.
+                         I'm committed to infusing every project with a dash of creativity, 
+                         captivating users with innovative design elements.</p>
+                    <a href="#">Learn more</a>
+               </div>
+               <div>
+                    <h2>more services</h2>
+                    <p>moreee</p>
+                    <a href="#">Learn more</a>
+                </div>
+               <div>
+                    <h2>some more services</h2>
+                    <p> some moreee</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!----------------------------------portfolio----------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/proj1.jpeg">
+                    <div class="layer">
+                        <h3>Online Art Gallery</h3>
+                        <p>Serene ArtZing is an online art gallery management system designed to facilitate the display, sale, and management of artworks through a seamless web platform.
+                             This system integrates several web technologies to ensure a robust, user-friendly experience.</p>
+                        <a href=""><i class="fa-solid fa-paperclip"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/proj2.jpeg">
+                    <div class="layer">
+                        <h3>Smart Blind Stick</h3>
+                        <p>The smart stick comes as a proposed solution to help the visually impaired people
+                            Proposed method uses the Node MCU as controller, ultrasonic sensors detects the
+                            obstacles,alerted with a quick response time using a buzzer,
+                            also has a GPS module, so that the person with disability and guardian can know the
+                            current location
+                            Designing a cost effective and efficient blind stick is the main aim of the project. </p>
+                        <a href=""><i class="fa-solid fa-paperclip"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/proj3.jpeg">
+                    <div class="layer">
+                        <h3>Real-Time parking Monitoring With Cloud Integration</h3>
+                        <p>By employing NodeMCU and IR sensor technology, the system continuously
+                            monitors parking spaces, providing real-time updates on space availability.
+                            Integrated with cloud services, it offers seamless data storage and accessibility,
+                            enabling remote monitoring and analysis.
+                            This project addresses the pressing need for smarter parking solutions in urban
+                            environments.</p>
+                        <a href=""><i class="fa-solid fa-paperclip"></i></a>
+                    </div>
+                </div>
+            </div> 
+            <a href="#" class="btn">See more</a>      
+        </div>
+    </div>
+
+<!--------------------------------------------contact--------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>rakshakl1209@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 0004445554</p>
+                <div class="social-links">
+                    <a href="https://github.com/Raksha1209" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/raksha-k-l-982592257" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <!-- Add URLs for the other social media links or remove the empty anchor tags -->
+                    <a href="RESUME Raksha.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright">  </i> Raksha ,Made with Love.<i class="fa-regular fa-face-laugh-wink"></i> </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        
+
+    }
+ </script>
+
+</body>
+</html>
